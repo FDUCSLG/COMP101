@@ -1,7 +1,8 @@
 # Linux / Shell
 
 Author: ika <ika@thewizardbay.cc>
-Last Updated: 2023-11-10 10:30
+
+Last Updated: 2023-11-10 10:43
 
 #### Table of Contents
 
