@@ -1,0 +1,4 @@
+site_name: COMP101
+site_url: https://fducslg.github.io/COMP101
+theme:
+  name: material
