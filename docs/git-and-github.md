@@ -1,7 +1,7 @@
 <center><font size=7>Git/Github</font></center>
 <p align='right'>2023.9.24</p>
 
-# 前言
+## 前言
 此篇笔记将基于一本叫做Pro Git的书，简短讲述git和github的使用。并且基于一些模拟实验让你快速上手。  
 ### 学习资源
 - [Pro Git](https://git-scm.com/book/en/v2)  /  [Pro Git中文版](https://git-scm.com/book/zh/v2)，推荐阅读1-3章
@@ -26,7 +26,7 @@ git是一个分布式版本控制软件
 结合代码托管网站使用，比如github。在github上你可以拥有一个属于自己的代码仓库，可以放置你的课程项目或者大作业，可以把你的一些新奇的有趣的想法记录下来。更进一步，你还可以查看别人的项目，在`issue`栏与来自世界各地的开发者参与讨论，感兴趣可以`fork`别人的项目然后添加新的功能，说不定还能和项目拥有者成为朋友。在使用中，你也能加深对git的理解  
 如果你也是一名开源爱好者，那么就开始吧。
 
-# 起步
+## 起步
 ### 下载和安装
 [git下载](https://git-scm.com/download/win)  
 如果官网速度太慢可以去镜像网站：
@@ -90,7 +90,7 @@ git remote rename <oldname> <newname>
 ```
 来重命名远程仓库
 
-# git基本使用
+## git基本使用
 ### git add
 Git 管理下的文件有3种状态：已提交（committed）、已修改（modified） 和已暂存（staged）
 - 已修改表示修改了文件，但还没保存到本地仓库中。
@@ -261,7 +261,7 @@ git config --global alias.unstage 'reset HEAD'
 以后就可以用`git unstage`代替`git reset HEAD`了
 > 有点像typedef
 
-# git分支
+## git分支
 这是git的亮点特性  
 使用分支意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线
 ### git 底层原理简述
@@ -467,7 +467,7 @@ $ git log --pretty=oneline --graph
 发现master和b1的融合就不是两个分支合并了，而是master的新提交被接在了b1后面  
 rebase还有许多有意思的功能，比如`git rebase -i`，这个可以自行体会
 
-# git与github
+## git与github
 你的github项目有可能是多人协作的，你在本地完成的工作可以提交到github上，也可以把别人提交的功能拉取到你本地  
 ### git fetch
 在你的github仓库上新建一个文件steve.c，然后在你的本地仓库上执行
@@ -539,12 +539,12 @@ git push origin master
 git push origin --delete <branch>
 ```
 
-# git 工具
+## git 工具
 市面上有许多git可视化工具，推荐两个：
 - [GitHub Desktop](https://desktop.github.com/)
 - [Git Fork](https://git-fork.com/)
 
-# 结语
+## 结语
 此篇笔记讲述的仅仅是git的冰山一角，git还有许多有趣的命令等待你们去挖掘  
 不过你已经对git上手了，在实践中慢慢掌握git吧！
 
