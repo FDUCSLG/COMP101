@@ -1,4 +1,38 @@
-site_name: COMP101
+site_name: 复旦大学开放原子开源社团 COMP101 项目
 site_url: https://fducslg.github.io/COMP101
+
 theme:
   name: material
+  features:
+    - navigation.tabs
+  palette:
+    primary: 'blue'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+nav:
+  - 首页: index.md
+  - 项目介绍: project.md
+  - 团队成员: team.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FDUCSLG/COMP101
+      name: GitHub
+
+extra_footer:
+  - text: "@Copyright 2024, 复旦大学开放原子开源社团"
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search

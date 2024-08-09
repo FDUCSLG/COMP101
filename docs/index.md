@@ -1,4 +1,4 @@
-# COMP001 目录
+# COMP101 目录
 
 1. [Linux / Shell](linux-and-shell.md)
 2. [git / GitHub](git-and-github.md)
