@@ -1,16 +1,16 @@
 site_name: 复旦大学开放原子开源社团 COMP101 项目
-site_url: https://fducslg.github.io/COMP101
+# site_url: https://fducslg.github.io/COMP101
 
 theme:
   name: material
   features:
     - navigation.tabs
   palette:
-    primary: 'blue'
-    accent: 'red'
+    primary: "blue"
+    accent: "red"
   font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    text: "Roboto"
+    code: "Roboto Mono"
 
 nav:
   - 首页: index.md
