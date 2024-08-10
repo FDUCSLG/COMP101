@@ -1,5 +1,5 @@
 site_name: 复旦大学开放原子开源社团 COMP101 项目
-site_url: https://fducslg.github.io/COMP101
+site_url: http://www.fducslg.com/
 
 theme:
   name: material
