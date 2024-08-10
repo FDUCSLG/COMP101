@@ -4,7 +4,7 @@
 ## 简介
 WIP
 
-## [开始阅读](https://fducslg.github.io/COMP101/)
+## [开始阅读](https://www.fducslg.com/)
 
 ## 编写计划与进度
 WIP
