@@ -171,7 +171,7 @@ $ git commit -m "A is written"
 ```
 -m 后面跟的是message，表示此次提交的消息，一般用于说明这次提交修改了什么，消息是必须的  
 #### git commit -am
-如果我们新建了很多文件，又不想一个一个暂存然后提交怎么办？  
+如果我们修改或删除了很多文件，又不想一个一个暂存然后提交怎么办？  
 答：使用`git commit -am <message>`，可以看作是git add和git commit的组合，会把所有已跟踪的、修改过的文件提交，这个命令十分常用
 
 #### git commit --amend
